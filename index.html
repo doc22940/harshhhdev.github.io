@@ -11,6 +11,33 @@
 </head>
 <body>
     <div class="home">
+        <nav>
+            <div class="logo">
+                <h4>Harsh</h4>
+            </div>
+            <ul class="nav-links">
+                <li style="animation: slideInTop 0.5s linear;">
+                    <a href="#home">Home</a>
+                </li>
+                <li style="animation: slideInTop 0.6s linear;">
+                    <a href="#about">About</a>
+                </li>
+                <li style="animation: slideInTop 0.7s linear;">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li style="animation: slideInTop 0.8s linear;">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li style="animation: slideInTop 0.9s linear;">
+                    <a href="https://dev.to/harshhhdev">Blog</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
         <div class="intro" id="intro">
             <p class="intro-hi">Hi, my name is</p>
             <h1 class="intro-name">Harsh Singh</h1>
@@ -29,9 +56,11 @@
             </div>
             <a href="#contact" class="intro-say">Say Hi 👋</a>
         </div>
-        <svg viewBox="0 0 2718 330" fill="none" xmlns="http://www.w3.org/2000/svg" class="curve">
-            <path d="M7 200.262C981.919 -6.45232 1079.12 371.939 1724.15 286.1C2240.18 217.429 2591.73 85.4205 2703 28" stroke="#98a6f5" stroke-width="20"/>
-        </svg>        
+        <div class="curve-parent">
+            <svg viewBox="0 0 2718 330" fill="none" xmlns="http://www.w3.org/2000/svg" class="curve">
+                <path d="M7 200.262C981.919 -6.45232 1079.12 371.939 1724.15 286.1C2240.18 217.429 2591.73 85.4205 2703 28" stroke="#98a6f5" stroke-width="20"/>
+            </svg> 
+        </div>
         <div class="about" id="about">
             <h3 class="about-title">About</h3>
             <p class="about-about">I started coding with a along few friends in 6th grade. Over time, I grew a deep passion for coding and have built several cool and interesting projects with various technologies and languages.</p>
@@ -75,30 +104,46 @@
                 </div>
             </div>
         </div>
-    </div>     
-    </svg>        
-    <div class="large-projects" id="projects">
-        <h1 class="lp-head">Some things I've built</h1>
-        <div class="card">
-            <div class="graphic left">
-                <iframe src="https://www.youtube.com/embed/UjDYQOFcegk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
-            </div>
-            <div class="lp">
-                <p class="feature">Featured Project</p>
-                <h1 class="project-title">AwesomeSource</h1>
-                <div class="project-desc">
-                    <div class="tags">
-                        <div class="tag">Express</div>
-                        <div class="tag">MongoDB</div>
-                        <div class="tag">Node</div>
-                        <div class="tag">Passport</div>
+        <div class="large-projects" id="projects">
+            <h1 class="lp-head">Some things I've built</h1>
+            <div class="card">
+                <div class="graphic left">
+                    <iframe src="https://www.youtube.com/embed/UjDYQOFcegk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+                </div>
+                <div class="lp">
+                    <p class="feature">Featured Project</p>
+                    <h1 class="project-title">AwesomeSource</h1>
+                    <div class="project-desc">
+                        <div class="tags">
+                            <div class="tag">Express</div>
+                            <div class="tag">MongoDB</div>
+                            <div class="tag">Node</div>
+                            <div class="tag">Passport</div>
+                        </div>
+                        A website to find and showcase open-source software projects, and to help the community grow. Together. 🚀 
                     </div>
-                    A website to find and showcase open-source software projects, and to help the community grow. Together. 🚀 
+                </div>
+            </div>
+            <div class="card">
+                <div class="lp-left">
+                    <p class="feature">Featured Project</p>
+                    <h1 class="project-title">SketchMessage</h1>
+                    <div class="project-desc">
+                        <div class="tags">
+                            <div class="tag">MongoDB</div>
+                            <div class="tag">Node</div>
+                            <div class="tag">Socket</div>
+                        </div>
+                        A website to find and showcase open-source software projects, and to help the community grow. Together. 🚀 
+                    </div>
+                </div>
+                <div class="graphic right">
+                    <iframe src="https://www.youtube.com/embed/UjDYQOFcegk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="./scripts/nav.js"></script>
     <script src="./scripts/copy.js"></script>
 </body>
 </html> 

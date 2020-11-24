@@ -3,6 +3,8 @@
 @import url("./other/vars.css");
 @import url("./other/other.css");
 
+@import url("./components/nav.css");
+
 @import url("./sections/intro.css");
 @import url("./sections/about.css");
 @import url("./sections/large-projects.css");

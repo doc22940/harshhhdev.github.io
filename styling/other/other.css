@@ -1,3 +1,7 @@
+.curve-parent {
+   overflow-x: hidden;
+}
+
 .curve {
    margin-left: -2%;
    width: 110%;
@@ -6,9 +10,4 @@
 
 .curve2 {
    position: absolute;
-}
-
-.home {
-   position: relative;
-   overflow-x: hidden;
 }
