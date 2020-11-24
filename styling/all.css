@@ -1,12 +1,8 @@
 @import url("./other/main.css");
 
-@import url("./elements/socials.css");
-@import url("./elements/nav.css");
-@import url("./elements/scrollbar.css");
+@import url("./other/vars.css");
+@import url("./other/other.css");
 
 @import url("./sections/intro.css");
 @import url("./sections/about.css");
-@import url("./sections/projects.css");
-@import url("./sections/smaller-projects.css");
-@import url("./sections/contact.css");
-@import url("./sections/end-pad.css");
+@import url("./sections/large-projects.css");

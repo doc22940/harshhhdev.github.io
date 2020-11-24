@@ -1,0 +1,14 @@
+.curve {
+   margin-left: -2%;
+   width: 110%;
+   color: #98a6f58f;
+}
+
+.curve2 {
+   position: absolute;
+}
+
+.home {
+   position: relative;
+   overflow-x: hidden;
+}

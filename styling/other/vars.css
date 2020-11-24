@@ -1,0 +1,11 @@
+:root {
+   --light: #98a6f5;
+   --light2: #93A1ED;
+   --light3: #838FD4;
+   --dark2: #6C75AD;
+   --dark: #444A6E;
+   --lightest: #ffffff96;
+   --scale: scale(1.05, 1.05);
+   --translate: translateY(-5px);
+   --transition: 0.1s linear all;
+}
