@@ -1,137 +1,83 @@
 .large-projects {
    display: flex;
-   align-items: center;
-   justify-content: center;
    padding-top: 200px;
    text-align: center;
    flex-direction: column;
 }
 
-.lp {
-   padding-top: 100px;
+.lp-head {
+   color: var(--light);
+   padding-bottom: 100px;
 }
 
 .card {
-   z-index: 999;
-   margin: 30px 0;
-   width: 700px;
-   padding: 10px;
-   background: var(--dark2);
+   display: flex;
+}
+
+.youtube {
+   height: 400px;
+   width: 720px;
    border-radius: 7px;
-   transition: var(--transition);
 }
 
-.card:hover {
-   z-index: 999;
-   transform: var(--translate);
+.left {
+   display: flex;
+   padding-left: 10%;
+   justify-self: left;
 }
 
-.card-title {
-   z-index: 999;
-   font-size: 30px;
-   color: var(--lightest);
-}
-
-.card-desc {
-   z-index: 999;
-   color: white;
-   padding-top: 10px;
-}
-
-.lp-head {
-   z-index: 999;
-   color: var(--light);
-}
-
-.checklist {
-   z-index: 999;
-   padding-top: 20px;
+.lp {
+   text-align: right !important;
+   width: 30%;
    display: flex;
    flex-direction: column;
-   align-items: center;
+   justify-content: center;
+   height: 50vh;
+   margin-left: 60%;
+   position: absolute;
 }
 
-.check {
-   z-index: 999;
-   display: flex;
-   height: 30px;
-   align-items: center;
-   color: var(--lightest);
-}
-
-.skill {
-   z-index: 999;
-   padding-left: 10px;
+.feature {
+   color: #4bffc3;
+   font-family: monospace;
 }
 
 .tags {
-   z-index: 999;
    display: flex;
-   justify-content: center;
-   padding-top: 20px;
+   flex-direction: row;
+   justify-content: right;
+   padding-top: 5px;
+   padding-bottom: 15px;
 }
 
 .tag {
-   z-index: 999;
-   font-weight: bolder;
    margin: 0 5px;
-   border-radius: 5px;
-   padding: 5px;
-   color: white;
-   transition: var(--transition);
+   border-radius: 3px;
+   padding: 3px;
    width: fit-content;
+   background: var(--light);
+   transition: var(--transition);
 }
 
 .tag:hover {
    transform: var(--scale);
 }
 
-.mongo {
-   background: #2BAA52;
+.project-title {
+   font-size: 40px;
+   color: var(--lightest);
+   padding: 15px 0;
 }
 
-.node {
-   background: #358030;
-}
-
-.passport {
-   background: linear-gradient(34deg,#d6fe00, #3bdd75,  #2EB7EE);
-}
-
-.express {
-   color: #444444;
-   background: #EEEEEE;
-}
-
-.socket {
-   background-color: #444444;
-}
-
-.discord {
-   background: #6B86C9;
-}
-
-.buttons {
-   display: flex;
-   justify-content: center;
-   padding-top: 20px;
-}
-
-.card-btns {
-   text-decoration: none;
-   border-radius: 50px;
-   display: flex;
-   width: fit-content;
-   margin: 0 5px;
-   justify-content: center;
-   align-items: center;
-   padding: 10px;
-   font-size: 20px;
+.project-desc {
+   text-align: left !important;
+   border-radius: 5px;
    color: white;
-   background: var(--light);
+   padding: 15px;
+   background: var(--dark2);
    transition: var(--transition);
 }
 
-.card-btns:hover {
-   transform: scale(1.1, 1.1);
+.project-desc:hover {
+   transform: var(--translate);
 }
